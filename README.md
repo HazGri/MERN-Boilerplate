@@ -1,15 +1,15 @@
-# MERN Boilerplate Minimaliste
+# Minimalist MERN Boilerplate
 
 ## Description
 
-Boilerplate minimaliste pour une application MERN (MongoDB, Express, React, Node.js) avec séparation frontend/backend.
+Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application with frontend/backend separation.
 
-- **Backend** : Express + Mongoose + dotenv + CORS  
-- **Frontend** : React avec Vite + Tailwind CSS + React Router Dom + Axios
+- **Backend**: Express + Mongoose + dotenv + CORS  
+- **Frontend**: React with Vite + Tailwind CSS + React Router Dom + Axios
 
 ---
 
-## Structure du projet
+## Project Structure
 
 ```
 /backend
@@ -30,20 +30,20 @@ Boilerplate minimaliste pour une application MERN (MongoDB, Express, React, Node
 
 ## Installation
 
-1. **Cloner le dépôt :**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/HazGri/M.E.R.N-Boilerplate.git
-   cd nom-du-projet
+   cd M.E.R.N-Boilerplate
    ```
 
-2. **Démarrer le backend :**
+2. **Start the backend:**
    ```bash
    cd backend
    npm install
    npm start
    ```
 
-3. **Démarrer le frontend :**
+3. **Start the frontend:**
    ```bash
    cd ../frontend
    npm install
@@ -57,33 +57,40 @@ Boilerplate minimaliste pour une application MERN (MongoDB, Express, React, Node
 ### Backend (.env)
 ```env
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/votre-db
+MONGODB_URI=mongodb://localhost:27017/your-database
 CORS_ORIGIN=http://localhost:5173
 ```
 
 ---
 
+## Usage
 
-## Scripts disponibles
-
-### Backend
-- `npm start` : Démarre le serveur
-- `npm run dev` : Démarre le serveur en mode développement avec nodemon
-
-### Frontend
-- `npm run dev` : Démarre le serveur de développement Vite
-- `npm run build` : Construit l'application pour la production
-- `npm run preview` : Prévisualise la version de production
+1. Backend will be accessible at `http://localhost:3000`
+2. Frontend will be accessible at `http://localhost:5173`
+3. Start building your application!
 
 ---
 
-## Technologies utilisées
+## Available Scripts
+
+### Backend
+- `npm start`: Starts the server
+- `npm run dev`: Starts the server in development mode with nodemon
+
+### Frontend
+- `npm run dev`: Starts the Vite development server
+- `npm run build`: Builds the application for production
+- `npm run preview`: Previews the production build
+
+---
+
+## Technologies Used
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB + Mongoose
-- dotenv (variables d'environnement)
+- dotenv (environment variables)
 - CORS
 
 ### Frontend
@@ -91,10 +98,10 @@ CORS_ORIGIN=http://localhost:5173
 - Vite (bundler)
 - Tailwind CSS
 - React Router Dom
-- Axios (requêtes HTTP)
+- Axios (HTTP requests)
 
 ---
 
-## Licence
+## License
 
 MIT
