@@ -32,7 +32,7 @@ Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/HazGri/M.E.R.N-Boilerplate.git
+   git clone https://github.com/HazGri/MERN-Boilerplate.git
    cd M.E.R.N-Boilerplate
    ```
 
