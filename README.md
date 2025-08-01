@@ -1,5 +1,9 @@
 # Minimalist MERN Boilerplate
 
+<div align="center">
+  <img src="./assets/screenshot.png" alt="MERN App Screenshot" width="800">
+</div>
+
 ## Description
 
 Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application with frontend/backend separation.
@@ -75,10 +79,22 @@ For better Tailwind CSS autocomplete support in VS Code, add this configuration 
 }
 ```
 
-This configuration enables Tailwind CSS IntelliSense for:
-- Classic project structure (`src/index.css`)
-- Frontend mono-repo structure (`frontend/src/index.css`)
-- Backend mono-repo structure (`backend/src/index.css`)
+**How to add this configuration:**
+
+1. Open VS Code Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+2. Type "Preferences: Open Settings (JSON)"
+3. Add the configuration above to your `settings.json`
+
+**What this does:**
+- Maps Tailwind config files to their respective file patterns
+- Enables IntelliSense autocomplete for Tailwind classes
+- Supports both classic project structure and mono-repo setups
+- Provides hover documentation and class validation
+
+**Supported structures:**
+- `src/index.css` → Classic React project
+- `frontend/src/index.css` → Frontend in mono-repo
+- `backend/src/index.css` → Backend with Tailwind (if needed)
 
 ---
 
