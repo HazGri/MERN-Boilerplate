@@ -57,7 +57,7 @@ Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application
 ### Backend (.env)
 ```env
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/your-database
+MONGODB_URI=your-mongodb-db-url
 CORS_ORIGIN=http://localhost:5173
 ```
 
@@ -67,7 +67,6 @@ CORS_ORIGIN=http://localhost:5173
 
 1. Backend will be accessible at `http://localhost:3000`
 2. Frontend will be accessible at `http://localhost:5173`
-3. Start building your application!
 
 ---
 
