@@ -61,6 +61,25 @@ MONGODB_URI=your-mongodb-db-url
 CORS_ORIGIN=http://localhost:5173
 ```
 
+### VS Code Tailwind CSS IntelliSense
+
+For better Tailwind CSS autocomplete support in VS Code, add this configuration to your `settings.json`:
+
+```json
+{
+  "tailwindCSS.experimental.configFile": {
+    "src/index.css": "src/**",
+    "frontend/src/index.css": "frontend/src/**",
+    "backend/src/index.css": "backend/src/**"
+  }
+}
+```
+
+This configuration enables Tailwind CSS IntelliSense for:
+- Classic project structure (`src/index.css`)
+- Frontend mono-repo structure (`frontend/src/index.css`)
+- Backend mono-repo structure (`backend/src/index.css`)
+
 ---
 
 ## Usage
