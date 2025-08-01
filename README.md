@@ -1,14 +1,10 @@
 # Minimalist MERN Boilerplate
 
-<div align="center">
-  <img src="./assets/screenshot.png" alt="MERN App Screenshot" width="800">
-</div>
-
 ## Description
 
 Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application with frontend/backend separation.
 
-- **Backend**: Express + Mongoose + dotenv + CORS  
+- **Backend**: Express + Mongoose + dotenv + CORS
 - **Frontend**: React with Vite + Tailwind CSS + React Router Dom + Axios
 
 ---
@@ -35,12 +31,14 @@ Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/HazGri/MERN-Boilerplate.git
    cd MERN-Boilerplate
    ```
 
 2. **Start the backend:**
+
    ```bash
    cd backend
    npm install
@@ -59,6 +57,7 @@ Minimalist boilerplate for a MERN (MongoDB, Express, React, Node.js) application
 ## Configuration
 
 ### Backend (.env)
+
 ```env
 PORT=3000
 MONGODB_URI=your-mongodb-db-url
@@ -86,12 +85,14 @@ For better Tailwind CSS autocomplete support in VS Code, add this configuration 
 3. Add the configuration above to your `settings.json`
 
 **What this does:**
+
 - Maps Tailwind config files to their respective file patterns
 - Enables IntelliSense autocomplete for Tailwind classes
 - Supports both classic project structure and mono-repo setups
 - Provides hover documentation and class validation
 
 **Supported structures:**
+
 - `src/index.css` → Classic React project
 - `frontend/src/index.css` → Frontend in mono-repo
 - `backend/src/index.css` → Backend with Tailwind (if needed)
@@ -108,10 +109,12 @@ For better Tailwind CSS autocomplete support in VS Code, add this configuration 
 ## Available Scripts
 
 ### Backend
+
 - `npm start`: Starts the server
 - `npm run dev`: Starts the server in development mode with nodemon
 
 ### Frontend
+
 - `npm run dev`: Starts the Vite development server
 - `npm run build`: Builds the application for production
 - `npm run preview`: Previews the production build
@@ -121,6 +124,7 @@ For better Tailwind CSS autocomplete support in VS Code, add this configuration 
 ## Technologies Used
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB + Mongoose
@@ -128,6 +132,7 @@ For better Tailwind CSS autocomplete support in VS Code, add this configuration 
 - CORS
 
 ### Frontend
+
 - React 18
 - Vite (bundler)
 - Tailwind CSS
