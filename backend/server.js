@@ -11,7 +11,7 @@ const app = express();
 
 // Récupérer les variables d'environnement ou mettre des valeurs par défaut
 const port = process.env.PORT || 3000;
-const mongoURI = process.env.MONGO_URI;
+const mongoURI = process.env.MONGODB_URI;
 const corsOrigin = process.env.CORS_ORIGIN;
 
 // Middleware pour parser le JSON dans les requêtes HTTP
